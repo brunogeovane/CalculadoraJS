@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="calc.css">	
+<script type="text/javascript" src="calc.js"></script>
+</head>
+<center>
+<body>
+<h1>B.G Calculadora</h1>
+<form name="calc">
+<input type="text" style="width:320px; height: 30px" id="visor"/> 
+
+<br><br>
+<input type="button"  style="width: 50px; height: 50px" value="1" onclick="botao(value);"/>
+<input type="button"  style="width: 50px; height: 50px" value="2" onclick="botao(value);"/>
+<input type="button"  style="width: 50px; height: 50px" value="3" onclick="botao(value);"/>
+<input type="button"  class="cor"style="width: 50px; height: 50px" value="+" onclick="botao(value);"/>
+<input type="button"  class="cor"style="width: 50px; height: 50px" value="*" onclick="botao(value);"/>
+<br>
+
+<input type="button"  style="width: 50px; height: 50px" value="4" onclick="botao(value);"/>
+<input type="button"  style="width: 50px; height: 50px" value="5" onclick="botao(value);"/>
+<input type="button"  style="width: 50px; height: 50px" value="6" onclick="botao(value);"/>
+<input type="button"  class="cor" style="width: 50px; height: 50px" value="-" onclick="botao(value);"/>
+<input type="button"  class="cor" style="width: 50px; height: 50px" value="/" onclick="botao(value);"/>
+<br>
+
+<input type="button"  style="width: 50px; height: 50px" value="7" onclick="botao(value);"/>
+<input type="button"  style="width: 50px; height: 50px" value="8" onclick="botao(value);"/>
+<input type="button"  style="width: 50px; height: 50px" value="9" onclick="botao(value);"/>
+<input type="button"  style="width: 50px; height: 50px" value="0" onclick="botao(value);"/>
+<input type="button"  class="cor" style="width: 50px; height: 50px" value="%" onclick="botao(value);"/>
+
+<br><br>
+<input type="button" class="corbotaolimpar" style="width: 60px; height: 35px" value="limpar" onclick="limpar();"/>
+<input type="button" class="corbotaoigual" style="width: 40px; height: 35px" value="=" onclick="mostrarValor();"/><br><br>
+
+<a href="#">
+   <img src="info.png" style="width: 50px; height: 50px" onclick="sobre()">
+</a>
+
+</form>
+</body></center>
+</html>
