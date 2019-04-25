@@ -1,8 +1,8 @@
-# CalculadoraJS
+# _CalculadoraJavaScript_
 Calculadora simples feita com Java Script.
 
 # _Autor:Bruno Geovane_
 
-# screenshot
+# _screenshot_
 
 
